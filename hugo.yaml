@@ -1,0 +1,23 @@
+baseURL: https://example.org/
+languageCode: en-us
+theme: ["PaperMod"]
+title: My New Hugo Site
+
+
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+params:
+  math: true

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Aug 2025 21:00:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用的vps脚本</title>
+      <link>http://localhost:1313/posts/vps_scripts/</link>
+      <pubDate>Tue, 26 Aug 2025 21:00:42 +0800</pubDate>
+      <guid>http://localhost:1313/posts/vps_scripts/</guid>
+      <description>&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
+&lt;h3 id=&#34;ssh-key-validation&#34;&gt;SSH key validation&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;for pubkey_file in /etc/ssh/*.pub; do ssh-keygen -lf ${pubkey_file} -E sha256;  done
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;prefer-ipv4&#34;&gt;Prefer ipv4&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sed -i &amp;#39;s/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/&amp;#39; /etc/gai.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;server-performance-testing&#34;&gt;Server Performance Testing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NodeSeek Toolkit&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;curl -sL https://sh.nodeseek.com&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;** ECS (Go Version)**&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;export noninteractive=true &amp;amp;&amp;amp; curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh &amp;amp;&amp;amp; chmod +x goecs.sh &amp;amp;&amp;amp; bash goecs.sh env &amp;amp;&amp;amp; bash goecs.sh install &amp;amp;&amp;amp; goecs
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;proxy-setup&#34;&gt;Proxy Setup&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Command Line Installer (Sing-box by 233boy)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bash &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;singbox on alpine linux&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;bash &amp;lt;(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graphical Clients&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: Some GUI-based VPN clients claiming to use Sing-box may prioritize user acquisition over code quality. Many include advertisements and unstable features. Use with caution.
+&lt;del&gt;&lt;a href=&#34;https://github.com/MatsuriDayo/nekoray&#34;&gt;Nekoray GUI Client&lt;/a&gt;&lt;/del&gt; &lt;em&gt;(Deprecated/Not recommended)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 26 Aug 2025 18:37:01 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Here is some content, This is markdown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
+&lt;h2 id=&#34;数学公式示例&#34;&gt;数学公式示例：&lt;/h2&gt;
+$$E = mc^2$$$$
+\lim_{n \to \infty} \left( \sum_{k=1}^{n} \frac{1}{k^2} \right) = \frac{\pi^2}{6}
+\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}, \quad
+\text{and} \quad \\
+\mathbf{A} = \begin{bmatrix}
+\frac{d^2}{dx^2} &amp; \int_0^1 f(x) dx \\
+\sum_{n=1}^\infty \frac{1}{n^2} &amp; \alpha + i\beta
+\end{bmatrix} \\
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, \quad
+y = \sqrt{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \cdots}}}}
+$$&lt;h2 id=&#34;更多的例子probably-break&#34;&gt;更多的例子(Probably break)&lt;/h2&gt;
+$$
+ Quantum Mechanics Style Notation:
+$$&lt;p&gt;
+\langle \psi | \hat{H} | \psi \rangle = E, \quad
+|\psi\rangle = \sum_{n=0}^\infty c_n |n\rangle
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
