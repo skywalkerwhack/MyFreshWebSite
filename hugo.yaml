@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://blog.private-2f0.workers.dev/
 languageCode: en-us
 theme: ["PaperMod"]
 title: My New Hugo Site
