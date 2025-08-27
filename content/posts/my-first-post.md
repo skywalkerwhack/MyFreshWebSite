@@ -24,7 +24,7 @@ y = \sqrt{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \cdots}}}}
 $$
 
 
-## 更多的例子(Probably break)
+## 更多的例子(Will probably break)
 $$
  Quantum Mechanics Style Notation:
 $$
