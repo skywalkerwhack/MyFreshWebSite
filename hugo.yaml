@@ -1,10 +1,7 @@
 baseURL: https://418935.xyz
 languageCode: en-us
 theme: ["PaperMod"]
-title: My New Hugo Site
-
-
-
+title: Sneezy's blog
 markup:
   goldmark:
     extensions:
@@ -21,3 +18,4 @@ markup:
         enable: true
 params:
   math: true
+  ShowToc: true

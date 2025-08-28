@@ -5,7 +5,7 @@ title: '常用的vps脚本'
 ---
 
 ## Scripts
-### SSH key validation
+### SSH key validation (Just for fun;) it's placebo effect)
 ```
 for pubkey_file in /etc/ssh/*.pub; do ssh-keygen -lf ${pubkey_file} -E sha256;  done
 ```
@@ -23,11 +23,11 @@ bash <(curl -sL https://sh.nodeseek.com)
 export noninteractive=true && curl -L https://raw.githubusercontent.com/oneclickvirt/ecs/master/goecs.sh -o goecs.sh && chmod +x goecs.sh && bash goecs.sh env && bash goecs.sh install && goecs
 ```
 ### Proxy Setup
-* **Command Line Installer (Sing-box by 233boy)**
+* **For Ubuntu and Debian:(sing-box by 233boy)**
 ```bash
 bash <(wget -qO- -o- https://github.com/233boy/sing-box/raw/main/install.sh)
 ```
-* **singbox on alpine linux**
+* **For Ubuntu, Debian, Centos, Alpine and Arch: (sing-box by fscarmen)**
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
 ```
