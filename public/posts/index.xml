@@ -4,17 +4,54 @@
     <title>Posts on Sneezy&#39;s blog</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Sneezy&#39;s blog</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 21:00:42 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Sep 2025 20:05:56 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google</title>
+      <link>http://localhost:1313/posts/google/</link>
+      <pubDate>Sat, 13 Sep 2025 20:05:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/google/</guid>
+      <description>&lt;h1 id=&#34;how-to-google-like-a-pro&#34;&gt;How to Google like a Pro&lt;/h1&gt;
+&lt;p&gt;Master advanced search operators (&lt;code&gt;site:&lt;/code&gt;, &lt;code&gt;filetype:&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;&amp;quot;exact match&amp;quot;&lt;/code&gt;, etc.). Use Google Dorks for deep queries. Bookmark Google Scholar and Google Trends for research and insights.&lt;/p&gt;
+&lt;h2 id=&#34;additional-tips&#34;&gt;Additional Tips:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Use &lt;code&gt;inurl:&lt;/code&gt; and &lt;code&gt;intitle:&lt;/code&gt;&lt;/strong&gt; to filter by URL or page title content (e.g., &lt;code&gt;inurl:login&lt;/code&gt; or &lt;code&gt;intitle:index.of&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Leverage &lt;code&gt;define:&lt;/code&gt;&lt;/strong&gt; to quickly get word definitions (e.g., &lt;code&gt;define:epistemology&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time filtering&lt;/strong&gt;: Use the &amp;ldquo;Tools&amp;rdquo; menu below the search bar to filter by time (past hour, day, week, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use &lt;code&gt;cache:&lt;/code&gt;&lt;/strong&gt; to view the cached version of a page (e.g., &lt;code&gt;cache:example.com&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search by image&lt;/strong&gt;: Right-click an image and use Google Lens, or go to &lt;a href=&#34;https://images.google.com&#34;&gt;images.google.com&lt;/a&gt; and upload an image to search visually.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use &lt;code&gt;related:&lt;/code&gt;&lt;/strong&gt; to find sites similar to a known one (e.g., &lt;code&gt;related:nytimes.com&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Exclude results with &lt;code&gt;-&lt;/code&gt;&lt;/strong&gt;: Add &lt;code&gt;-term&lt;/code&gt; to exclude terms (e.g., &lt;code&gt;jaguar -car -feline&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search specific file types&lt;/strong&gt;: e.g., &lt;code&gt;site:.edu filetype:pdf &amp;quot;machine learning&amp;quot;&lt;/code&gt; to find academic papers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explore &amp;ldquo;People Also Ask&amp;rdquo; and related searches&lt;/strong&gt;: These often surface useful long-tail queries.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use quotes for exact phrases&lt;/strong&gt;: e.g., &lt;code&gt;&amp;quot;best practices in UX design&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced search page&lt;/strong&gt;: &lt;a href=&#34;https://www.google.com/advanced_search&#34;&gt;https://www.google.com/advanced_search&lt;/a&gt; lets you set parameters manually.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;specialized-tools&#34;&gt;Specialized Tools:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google Dataset Search&lt;/strong&gt;: &lt;a href=&#34;https://datasetsearch.research.google.com&#34;&gt;https://datasetsearch.research.google.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Public Data Explorer&lt;/strong&gt;: &lt;a href=&#34;https://www.google.com/publicdata/directory&#34;&gt;https://www.google.com/publicdata/directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Books&lt;/strong&gt;: for full-text book search and previews.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Patents&lt;/strong&gt;: &lt;a href=&#34;https://patents.google.com&#34;&gt;https://patents.google.com&lt;/a&gt; for patent research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;habits-of-power-users&#34;&gt;Habits of Power Users:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use keyboard shortcuts: &lt;code&gt;/&lt;/code&gt; to jump to the search box.&lt;/li&gt;
+&lt;li&gt;Learn the URL structure: e.g., manually append &lt;code&gt;&amp;amp;tbs=qdr:d&lt;/code&gt; to search results URL to get only results from the past day.&lt;/li&gt;
+&lt;li&gt;Combine operators logically: &lt;code&gt;(&amp;quot;machine learning&amp;quot; OR &amp;quot;deep learning&amp;quot;) site:arxiv.org filetype:pdf&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;#likeapro #productivity&lt;/p&gt;</description>
+    </item>
     <item>
       <title>常用的vps脚本</title>
       <link>http://localhost:1313/posts/vps_scripts/</link>
       <pubDate>Tue, 26 Aug 2025 21:00:42 +0800</pubDate>
       <guid>http://localhost:1313/posts/vps_scripts/</guid>
       <description>&lt;h2 id=&#34;scripts&#34;&gt;Scripts&lt;/h2&gt;
-&lt;h3 id=&#34;ssh-key-validation&#34;&gt;SSH key validation&lt;/h3&gt;
+&lt;h3 id=&#34;ssh-key-validation-just-for-fun-its-placebo-effect&#34;&gt;SSH key validation (Just for fun;) it&amp;rsquo;s placebo effect)&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;for pubkey_file in /etc/ssh/*.pub; do ssh-keygen -lf ${pubkey_file} -E sha256;  done
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;prefer-ipv4&#34;&gt;Prefer ipv4&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sed -i &amp;#39;s/#precedence ::ffff:0:0\/96  100/precedence ::ffff:0:0\/96  100/&amp;#39; /etc/gai.conf
