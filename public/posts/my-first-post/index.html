@@ -8,6 +8,10 @@
 <title>Hello World | Sneezy&#39;s blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="这是我的第一篇博客。
+
+  
+  🔍
+
 数学公式示例：
 $$E = mc^2$$$$
 \lim_{n \to \infty} \left( \sum_{k=1}^{n} \frac{1}{k^2} \right) = \frac{\pi^2}{6}
@@ -130,6 +134,26 @@ $$
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -164,6 +188,12 @@ $$
 </div>
 
   <div class="post-content"><p>这是我的第一篇博客。</p>
+<form id="searchbox" action="/search/" method="get">
+  <input id="searchInput" name="q" autofocus 
+         placeholder="Search site with Google CSE ..." 
+         aria-label="search" type="search" autocomplete="off" maxlength="64">
+  <button type="submit">🔍</button>
+</form>
 <h2 id="数学公式示例">数学公式示例：<a hidden class="anchor" aria-hidden="true" href="#数学公式示例">#</a></h2>
 $$E = mc^2$$$$
 \lim_{n \to \infty} \left( \sum_{k=1}^{n} \frac{1}{k^2} \right) = \frac{\pi^2}{6}

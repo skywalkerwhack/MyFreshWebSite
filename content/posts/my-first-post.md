@@ -1,9 +1,16 @@
 ---
-title: "Hello World"
+draft: false
 date: 2025-08-26
+title: "Hello World"
 ---
 
 这是我的第一篇博客。
+<form id="searchbox" action="/search/" method="get">
+  <input id="searchInput" name="q" autofocus 
+         placeholder="Search site with Google CSE ..." 
+         aria-label="search" type="search" autocomplete="off" maxlength="64">
+  <button type="submit">🔍</button>
+</form>
 
 ## 数学公式示例：  
 

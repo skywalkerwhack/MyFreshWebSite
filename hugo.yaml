@@ -1,7 +1,31 @@
 baseURL: https://418935.xyz
+title: Sneezy's blog
 languageCode: en-us
 theme: ["PaperMod"]
-title: Sneezy's blog
+
+
+
+
+
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: About
+      url: about/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 markup:
   goldmark:
     extensions:
@@ -16,6 +40,9 @@ markup:
           - - \(
             - \)
         enable: true
+    renderer:
+      unsafe: true
 params:
   math: true
   ShowToc: true
+#  cse_id: "a71a7a270833d4bac"

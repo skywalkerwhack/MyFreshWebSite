@@ -1,9 +1,8 @@
 ---
-date: '2025-09-20T23:02:28+08:00'
-draft: false
-title: 'Commonly Used VPS Scripts'
+date: '2025-08-26T21:00:42+08:00'
+#draft: true
+title: '常用的vps脚本'
 ---
-
 
 ## Scripts
 ### SSH key validation (Just for fun;) it's placebo effect)
@@ -62,4 +61,4 @@ bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-b
 ### GitHub Resources
 * [Awesome VPN Tools](https://github.com/awesome-vpn/awesome-vpn/tree/master)
 ---
-
+$\text{The END}$
